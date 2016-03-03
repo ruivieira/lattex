@@ -7,7 +7,8 @@
     "jasmine-node": "latest"
   },
   "devDependencies" : {
-        "jasmine-node" : "latest"
+        "jasmine-node" : "latest",
+        "coffee-script": "latest"
     },
     "scripts" : {
         "test" : "jasmine-node --coffee spec/*Spec.coffee"
