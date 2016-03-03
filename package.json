@@ -6,6 +6,12 @@
     "jasmine": "^2.4.1",
     "jasmine-node": "latest"
   },
+  "devDependencies" : {
+        "jasmine-node" : "latest"
+    },
+    "scripts" : {
+        "test" : "jasmine-node --coffee spec/*Spec.coffee"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/ruivieira/lattex"
